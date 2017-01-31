@@ -1,0 +1,56 @@
+= Working with Legacy Code
+
+== What is Legacy Code?
+http://wiki.c2.com/?LegacyCode
+
+== Mocks
+https://8thlight.com/blog/uncle-bob/2014/05/14/TheLittleMocker.html
+
+[ditaa]
+....
++-----------+
+| Abstract  |
+|   Mock    |
+|           |
++-----------+
+       ^
+       |
++--------+--+
+|   Dummy   |
+|           |
++-----------+
+       ^
+       |
++--------+--+
+|   Stub    |
+|           |
++-----------+
+       ^
+       |
++--------+--+
+|   Spy     |
+|           |
++-----------+
+       ^
+       |
++--------+--+
+|   Mock    |
+|           |
++-----------+
+....
+
+== Types of Tests
+https://www.amazon.com/Developer-Testing-Building-Addison-Wesley-Signature-ebook/dp/B01LHSV9ZI
+
+* Unit Tests
+* Integration Tests
+* Unit Tests
+
+== Legacy Code Kata
+https://github.com/emilybache/Racing-Car-Katas
+
+* Work in pairs
+* 2 rounds 50 minutes + Retrospective
+
+=== Questions
+* What technics do you use to make the code testable?
