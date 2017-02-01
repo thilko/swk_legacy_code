@@ -44,7 +44,7 @@ https://www.amazon.com/Developer-Testing-Building-Addison-Wesley-Signature-ebook
 
 * Unit Tests
 * Integration Tests
-* Unit Tests
+* System Tests
 
 == Legacy Code Kata
 https://github.com/emilybache/Racing-Car-Katas
