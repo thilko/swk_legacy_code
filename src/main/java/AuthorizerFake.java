@@ -4,6 +4,6 @@
 public class AuthorizerFake implements Authorizer {
     @Override
     public Boolean authorize(final String username, final String password) {
-        return null;
+        return "invalid".equals(username);
     }
 }
